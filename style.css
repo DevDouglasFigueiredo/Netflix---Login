@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body::before{
@@ -26,6 +27,12 @@ body::before{
     right: 0;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo img{
     height: 45px;
     width: 167px;
@@ -38,18 +45,17 @@ body::before{
 }
 
 .login__body{
+
     padding: 3.3rem;
     z-index: 90;
     position: relative;
     max-width: 450px;
     min-width: 350px;
     height: 500px;
-    margin-left: 50%;
     background-color: rgb(0, 0, 0, 0.75);
     border-radius: 10px;
     box-sizing: border-box;
-    transform: translateX(-50%);
-
+    
 }
 
 .login__body{
